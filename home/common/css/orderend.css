@@ -1,0 +1,176 @@
+/* 购物车 提示开始 */
+.shop_tip{
+	width:990px;
+	height:40px;
+	padding:5px 0 0 0;
+	margin:20px auto 0;
+}
+
+.shop_tip .tip_pic{
+	width:490px;
+	height:23px;
+	padding-top:23px;
+	background:url(../images/step2.png) no-repeat;
+	float:right;
+}
+
+.shop_tip .tip_pic li{
+	padding:0 42px;
+	color:#963;
+	float:left;
+}
+
+.my_cart{
+	width:990px;
+	margin:0 auto 10px;
+}
+
+.my_cart span{
+	display:block;
+	font-size:18px;
+	color:#963;
+	padding-bottom:10px;
+}
+/* 购物车 提示结束 */
+
+.info{
+	width:988px;
+	margin:0 auto 10px;
+}
+
+.taker input{
+	margin-bottom:10px;
+}
+
+.pay{
+	width:988px;
+	margin:0 auto;
+}
+
+.pay p{
+	border-top:1px solid #eee;
+	padding-top:10px;
+}
+
+.bb{
+	background:#fbfbfb;
+	border:1px solid #ddd;
+	padding-bottom:10px;
+	margin-bottom:10pxo;
+}
+
+/* 购物车 列表开始 */
+.my_cart .cart_list{
+	width:988px;
+	margin:0 auto;
+	background-color:#fbfbfb;
+	border:1px solid #ddd;
+	font-size:13px;
+	color:#666;
+}
+
+.my_cart .cart_list  .tr1{
+	height:35px;
+	text-align:center;
+}
+
+.my_cart .cart_list .tit0{
+	width:30px;
+}
+
+.my_cart .cart_list .tit1{
+	width:100px;
+}
+.my_cart .cart_list .tit2{
+	width:315px;
+}
+.my_cart .cart_list .tit3{
+	width:70px;
+}
+.my_cart .cart_list .tit4{
+	width:120px;
+}
+.my_cart .cart_list .tit5{
+	width:170px;
+}
+.my_cart .cart_list .tit6{
+	width:205px;
+	
+}.my_cart .cart_list .tit7{
+	width:35px;
+}
+
+.my_cart .cart_list  .tr2{
+	height:82px;
+	text-align:center;
+}
+
+.my_cart .cart_list  .tr2 a{
+	color:#963;
+}
+
+.my_cart .cart_list  .tr2 .rnum a{
+	border:1px solid #963;
+	padding:0 6px;
+	margin:0 5px;
+	text-decoration:none;
+}
+
+.my_cart .cart_list  .tr3{
+	height:54px;
+}
+
+.my_cart .cart_list  .tr3 input{
+	/* padding:5px 10px; */
+	background:#ccc;
+}
+
+.cart_sub{
+	width:988px;
+	height:75px;
+	border-top:1px solid #ddd;
+}
+.cart_sub .goon{
+	width:135px;
+	height:36px;
+	background:#ccc;
+	text-align:center;
+	line-height:36px;
+	cursor:pointer;
+	margin:20px 0 0 20px;
+}
+
+.cart_sub a{
+	font-size:20px;
+	color:#333;
+	text-decoration:none;
+}
+
+.cart_sub .account{
+	width:135px;
+	height:36px;
+	background:#604301;
+	text-align:center;
+	line-height:36px;
+	font-size:25px;
+	border:0;
+	cursor:pointer;
+	color:#fff;
+	margin:20px 0 0 10px;
+}
+
+.cart_sub ul{
+	width:988px;
+	height:75px;
+	float:right;
+}
+
+.cart_sub li{
+	float:left;
+}
+
+.cart_sub li.float2{
+	float:right;
+	margin-right:20px;
+}
+/* 购物车 列表结束 */

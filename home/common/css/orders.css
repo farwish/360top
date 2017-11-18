@@ -1,0 +1,380 @@
+/* 顶部登录条 开始 */
+body{
+    margin:0;
+    padding:0;
+    font-family:'微软雅黑',Arial,Lucida,Verdana,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+div#bg_top{
+    width:100%;
+    height:87px;
+    background:url('../images/bg_top.jpg') 0 0 repeat-x #604401;
+    color:#6e4d00;
+}
+
+div#bg_top .bg_nav .bg_log a{
+    color:#fff;
+}
+
+div.bg_nav{
+    width:100%;
+    height:87px;
+    background:url('../images/bg_nav.png') center center no-repeat;
+    margin:0 auto;
+}
+
+div.bg_log{
+    width:990px;
+    height:79px;
+    position:relative;
+    margin:0 auto;
+    padding-top:8px;
+}
+
+ul{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    float:left;
+    color:#ffee93;
+    
+}
+
+dl{
+    padding:0;
+    margin:0;
+    float:right;
+}
+
+dd{
+    padding:0;
+    margin-left:20px;
+    float:left;
+}
+
+div.bg_nav .bg_log .logo{
+    position:absolute;
+    left:390px;
+    top:10px;
+    margin:0 auto;
+}
+
+div.bg_nav .bg_log .logo img{
+    border:0;
+}
+
+div.bg_nav .bg_log .search{
+    position:absolute;
+    top:45px;
+    right:0;
+    width:177px;
+    height:23px;
+    border:1px solid #6d4800;
+}
+
+div.bg_nav .bg_log .search .key{
+    width:122px;
+    height:21px;
+    background:url('../images/bg_360.png') -315px -130px #efe2ac;
+    border:none;
+    line-height:19px;
+    float:left;
+}
+
+div.bg_nav .bg_log .search .btm_search{
+    width:53px;
+    height:23px;
+    line-height:23px;
+    color:#000;
+    background:url('../images/bg_360.png') -442px -130px;
+    border:none;
+    float:left;
+}
+/* 顶部登录条 结束 */
+
+/* 导航条 开始 */
+div#nav_header{
+    width:100%;
+    height:35px;
+    background:url('../images/bg_header.png') 0 0 repeat-x;
+}
+
+div#nav_header .nav_sum{
+    width:960px;
+    height:35px;
+    margin:0 auto;
+    text-align:center;
+    line-height:35px;
+}
+
+div#nav_header .nav_sum .nav_item{
+    width:64px;
+    height:35px;
+    float:left;
+    
+}
+
+div#nav_header .nav_sum .nav_line{
+    width:44px;
+    height:35px;
+    font-weight:bold;
+    color:#6e4d00;
+    float:left;
+}
+
+div#nav_header .nav_sum a{
+    color:#edc539;
+}
+
+div#nav_header .nav_sum .nav_item2{
+    width:64px;
+    height:35px;
+    padding:0 12px;
+    float:left;
+}
+/* 导航条 结束 */
+
+/* 购物车 开始 */
+.shop_tip{
+	width:990px;
+	height:40px;
+	padding:5px 0 0 0;
+	margin:20px auto 0;
+}
+
+.shop_tip .tip_pic{
+	width:490px;
+	height:23px;
+	padding-top:23px;
+	background:url(../images/step1.png) no-repeat;
+	float:right;
+}
+
+.shop_tip .tip_pic li{
+	padding:0 42px;
+	color:#963;
+	float:left;
+}
+
+
+
+/* 购物车 结束 */
+
+/* 快速链接 开始 */
+div#links{
+	clear:both;
+    width:986px;
+    height:125px;
+    margin:0 auto;
+    margin-bottom:20px;
+    padding:9px 0;
+    border:2px solid #ccbca0;
+	overflow:hidden;
+}
+
+div#links dl{
+    width:115px;
+    height:130px;
+    padding-left:20px;
+    padding-right:28px;
+    border-left:1px solid #eee;
+    float:left;
+}
+
+div#links dl dt{
+    height:24px;
+    line-height:24px;
+    font-weight:bold;
+}
+
+div#links dl dd{
+    width:112px;
+    height:26px;
+    padding-left:15px;
+    line-height:26px;
+	margin:0;
+    background:url('../images/dian.gif') no-repeat  6px 10px;
+}
+
+div#links dl dt a{
+    color:#996633;
+}
+
+div#links dl dd a{
+    color:#000;
+}
+/* 快速链接 结束 */
+
+/* 服务信息 开始 */
+div#nav_end{
+    width:100%;
+    height:40px;
+    background-color:#473400;
+}
+
+div#nav_end .nav_mess{
+    width:990px;
+    height:40px;
+    margin:0 auto;
+}
+
+div#nav_end .nav_mess .mess{
+    width:247px;
+    height:42px;
+    text-align:center;
+    float:left;
+}
+
+div#nav_end .nav_mess .mess a.one{
+    font-size:16px;
+    margin-right:10px;
+    line-height:40px;
+    color:#e2bb35;
+}
+
+div#nav_end .nav_mess .mess a.two{
+    line-height:42px;
+    color:#ccbca0;
+}
+
+div#service{
+    width:100%;
+    height:181px;
+    margin:0 auto;
+    background:#f3f3f3;
+    padding-bottom:10px;
+}
+
+div#service .serv{
+    width:990px;
+    height:111px;
+    padding:40px 0;
+    margin:0 auto;
+}
+
+div#service .serv .dl_one{
+    width:246px;
+    height:110px;
+    position:relative;
+    border-right:1px solid #d6cdbd;
+    text-align:center;
+    float:left;
+}
+
+div#service .serv .dl_one .serv_pic{
+    float:left;
+    width:80px;
+    height:130px;
+    position:absolute;
+    margin-left:18px;
+    background:url('../images/bg_360.png') 0 75px;
+}
+
+div#service .serv .dl_two{
+    width:246px;
+    height:110px;
+    position:relative;
+    border-right:1px solid #d6cdbd;
+    text-align:center;
+    float:left;
+}
+
+div#service .serv .dl_two .serv_pic{
+    float:left;
+    width:80px;
+    height:130px;
+    position:absolute;
+    margin-left:18px;
+    background:url('../images/bg_360.png') -160px 75px;
+}
+
+div#service .serv .dl_three{
+    width:246px;
+    height:110px;
+    border-right:1px solid #d6cdbd;
+    text-align:center;
+    float:left;
+}
+
+div#service .serv .dl_three .serv_pic{
+    float:left;
+    width:80px;
+    height:130px;
+    position:absolute;
+    margin-left:18px;
+    background:url('../images/bg_360.png') -80px 75px;
+}
+
+div#service .serv .dl_four{
+    width:246px;
+    height:110px;
+    text-align:center;
+    float:left;
+}
+
+div#service .serv .dl_four .serv_pic{
+    float:left;
+    width:80px;
+    height:130px;
+    position:absolute;
+    margin-left:18px;
+    background:url('../images/bg_360.png') -235px 75px;
+}
+
+div#service .serv dl .one a{
+    height:24px;
+    line-height:24px;
+    font-weight:bold;
+    color:#999;
+}
+
+div#service .serv dl dt a{
+    height:21px;
+    line-height:21px;
+    color:#666;
+}
+/* 服务信息 结束 */
+
+div#footer{
+    width:100%;
+    height:35px;
+    background:#f3f3f3;
+    line-height:30px;
+}
+
+div#footer .foot{
+    width:990px;
+    height:30px;
+    color:#666;
+    text-align:center;
+    border-top:1px solid #ddd;
+    padding-top:5px;
+    margin:0 auto;
+}
+
+div#footer .foot .flinks{
+    width:380px;
+    height:18px;
+    position:relative;
+    float:left;
+}
+
+div#footer .foot .flinks a{
+    padding:0 6px;
+    color:#666;
+}
+
+div#footer .foot .copyright{
+    width:439px;
+    height:18px;
+    float:right;
+}

@@ -1,0 +1,98 @@
+body{
+    background:#686868;
+}
+
+a{
+    text-decoration:none;
+    font-size:12px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+div#reg{
+    width:100%;
+    height:400px;
+}
+
+div#reg .reg_box{
+    position:absolute;
+    width:500px;
+    height:400px;
+    left:50%;
+    top:50%;
+    margin-left:-252px;
+    margin-top:-202px;
+    background:#fbfbfb;
+}
+
+div#reg .reg_box .title{
+    text-align:center;
+    color:#604301;
+}
+
+div#reg .reg_box .form_list{
+    width:400px;
+    height:200px;
+    margin:60px auto;
+}
+
+div#reg .reg_box div.reg_item{
+    width:600px;
+    height:48px;
+    margin:0 auto;
+    margin-bottom:5px;
+}
+
+div#reg .reg_box div.reg_item .clic{
+	height:30px;
+	line-height:30px;
+}
+
+div#reg .reg_box div.reg_item span.label{
+    display:block;
+    width:100px;
+    height:30px;
+    color:#666;
+    text-align:right;
+    line-height:30px;
+    font-size:14px;
+    margin-right:10px;
+    float:left;
+}
+
+div#reg .reg_box div.reg_item input{
+    width:180px;
+    height:28px;
+    line-height:30px;
+    background:#efe2ac;
+    float:left;
+    color:#666;
+    border:0;
+}
+
+div#reg .reg_box div.reg_item input.code{
+    width:85px;
+    margin-right:7px;
+}
+
+div#reg .reg_box div.reg_item input.sub{
+    width:182px;
+    height:30px;
+    line-height:30px;
+    background:#604301;
+    color:#e2bb35;
+    cursor:pointer;
+    border:0;
+    float:left;
+}
+
+div#reg .reg_box div.reg_item .agree{
+    clear:both;
+    width:200px;
+    height:30px;
+    padding-left:100px;
+    text-align:center;
+}
+

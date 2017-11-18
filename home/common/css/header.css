@@ -1,0 +1,144 @@
+/* 顶部登录条 开始 */
+body{
+    margin:0;
+    padding:0;
+    font-family:'微软雅黑',Arial,Lucida,Verdana,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+div#bg_top{
+    width:100%;
+    height:87px;
+    background:url('../images/bg_top.jpg') 0 0 repeat-x #604401;
+    color:#6e4d00;
+}
+
+div#bg_top .bg_nav .bg_log a{
+    color:#fff;
+}
+
+div.bg_nav{
+    width:100%;
+    height:87px;
+    background:url('../images/bg_nav.png') center center no-repeat;
+    margin:0 auto;
+}
+
+div.bg_log{
+    width:990px;
+    height:79px;
+    position:relative;
+    margin:0 auto;
+    padding-top:8px;
+}
+
+ul{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    float:left;
+    color:#ffee93;
+    
+}
+
+dl{
+    padding:0;
+    margin:0;
+    float:right;
+}
+
+dd{
+    padding:0;
+    margin-left:20px;
+    float:left;
+}
+
+div.bg_nav .bg_log .logo{
+    position:absolute;
+    left:390px;
+    top:10px;
+    margin:0 auto;
+}
+
+div.bg_nav .bg_log .logo img{
+    border:0;
+}
+
+div.bg_nav .bg_log .search{
+    position:absolute;
+    top:45px;
+    right:0;
+    width:178px;
+    height:23px;
+    /* border:1px solid #6d4800; */
+}
+
+div.bg_nav .bg_log .search .key{
+    width:122px;
+    height:21px;
+    background:url('../images/bg_360.png') -315px -130px #efe2ac;
+    border:none;
+    line-height:19px;
+    float:left;
+}
+
+div.bg_nav .bg_log .search .btm_search{
+    width:53px;
+    height:23px;
+    line-height:23px;
+    color:#000;
+    background:url('../images/bg_360.png') -442px -130px;
+    border:none;
+    float:left;
+}
+/* 顶部登录条 结束 */
+
+/* 导航条 开始 */
+div#nav_header{
+    width:100%;
+    height:35px;
+    background:url('../images/bg_header.png') 0 0 repeat-x;
+}
+
+div#nav_header .nav_sum{
+    width:960px;
+    height:35px;
+    margin:0 auto;
+    text-align:center;
+    line-height:35px;
+}
+
+div#nav_header .nav_sum .nav_item{
+    width:64px;
+    height:35px;
+    float:left;
+    
+}
+
+div#nav_header .nav_sum .nav_line{
+    width:44px;
+    height:35px;
+    font-weight:bold;
+    color:#6e4d00;
+    float:left;
+}
+
+div#nav_header .nav_sum a{
+    color:#edc539;
+}
+
+div#nav_header .nav_sum .nav_item2{
+    width:64px;
+    height:35px;
+    padding:0 12px;
+    float:left;
+}
+/* 导航条 结束 */

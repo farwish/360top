@@ -1,0 +1,64 @@
+/* 个人中心 导航条 */
+.p_center{
+	width:990px;
+	margin:20px auto;
+}
+
+.p_nav{
+	width:150px;
+	height:300px;
+	float:left;
+	margin-bottom:18px;
+}
+
+.p_nav .p_360top{
+	width:150px;
+	height:34px;
+	background:#b99c52;
+	text-align:center;
+	line-height:34px;
+	font-size:14px;
+	margin-bottom:2px;
+}
+
+.p_nav .p_360top a{
+	color:#000;
+}
+
+.p_nav .p_account{
+	width:150px;
+	height:34px;
+	background:#edcc89;
+	text-align:center;
+	line-height:34px;
+	color:#fff;
+	font-size:14px;
+}
+
+.p_nav ul{
+	width:148px;
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+	margin-bottom:2px;
+}
+
+.p_nav li{
+	padding:5px 0;
+	text-align:center;
+}
+
+.p_nav li a{
+	color:#333;
+}
+
+.p_nav .p_order{
+	clear:both;
+	width:150px;
+	height:34px;
+	background:#edcc89;
+	text-align:center;
+	line-height:34px;
+	color:#fff;
+	font-size:14px;
+}

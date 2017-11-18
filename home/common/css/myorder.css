@@ -1,0 +1,24 @@
+/* 个人中心 我的订单 */
+.p_wel{
+	width:830px;
+	border:1px solid #edcc89;
+	margin-bottom:20px;
+	float:right;
+	background:#fbfbfb;
+}
+
+.myorder_tit h2{
+	padding:0;
+	margin:0;
+}
+
+.myorder_tit{
+	width:830px;
+	height:50px;
+ 	border-bottom:1px solid #edcc89;
+	padding-bottom:10px;
+}
+
+.myorder_tit .tr1{
+	bgcolor:#ddd;
+}

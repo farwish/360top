@@ -1,0 +1,21 @@
+/* 个人中心 个人信息 */
+.p_wel{
+	width:830px;
+	height:295px;
+	border:1px solid #edcc89;
+	margin-bottom:20px;
+	float:right;
+	background:#fffdee;
+}
+
+.account{
+	width:830px;
+	height:50px;
+ 	border-bottom:1px solid #edcc89;
+	padding-bottom:10px;
+}
+
+.account h2{
+	padding:0;
+	margin:0;
+}

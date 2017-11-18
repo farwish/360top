@@ -1,0 +1,296 @@
+/* 面包屑 指引 */
+div#w{
+	width:990px;
+}
+
+.crumb{
+	width:980px;
+	height:17px;
+	color:#000;
+	margin:10px auto 0;
+	padding:5px 5px 8px;
+}
+
+.crumb a{
+	color:#000;	
+}
+
+.detail{
+	width:948px;
+	height:430px;
+	padding:20px;
+	border:1px solid #ddd;
+	background:#fbfbfb;
+	margin:0 auto 20px;
+}
+
+.detail .preview{
+	width:426px;
+	height:364px;
+	float:left;
+}
+
+.detail .preview .pp{
+	width:56px;
+	height:294px;
+	margin-right:10px;
+	padding:25px 0;
+	float:left;
+	position:relative;
+}
+
+.detail .preview .b_pic{
+	width:352px;
+	height:352px;
+	border:1px solid #ddd;
+	float:right;
+}
+
+.detail .preview .pp .icon_top{
+	width:23px;
+	height:13px;
+	position:absolute;
+	left:15px;
+	top:5px;
+	background:url(../images/icon.png) -22px -116px;
+}
+
+.detail .preview .pp .icon_bottom{
+	width:23px;
+	height:13px;
+	position:absolute;
+	left:15px;
+	top:340px;
+	background:url(../images/icon.png) 1px -116px;
+}
+
+.detail .preview .pp .icon_list{
+	width:56px;
+	height:56px;
+}
+
+.detail .preview .pp .icon_list li img{
+	width:54px;
+	height:54px;
+	border:1px solid #ddd;
+	padding-bottom:2px;
+}
+
+.detail .summary{
+	float:right;
+	margin-right:5px;
+	width:500px;
+	height:430px;
+}
+
+.detail .summary .g_name{
+	width:490px;
+	height:50px;
+	padding-bottom:10px;
+	margin-right:30px;
+}
+.detail .summary .g_name span{
+	color:#333;
+	font-size:16px;
+}
+
+.detail .summary .g_item{
+	width:480px;
+	height:37px;
+	padding-left:10px;
+	margin-right:30px;
+	border-top:1px dotted #ddd;
+}
+
+.detail .summary li{
+	line-height:37px;
+	color:#333;
+	float:left;
+}
+
+.detail .summary .i_1{
+	padding-right:10px;
+	color:#999;
+	float:left;
+}
+
+.detail .summary .g_buy{
+	width:490px;
+	height:175px;
+	padding-left:5px;
+	border:1px solid #ddd;
+	background:#fff;
+}
+
+.detail .summary .g_buy .buy_num{
+	margin:0 5px;
+	width:475px;
+	height:40px;
+	border-bottom:1px dotted #ddd;
+}
+
+.detail .summary .g_buy .buy_num input{
+	text-align:center;
+	border:1px solid #963;
+}
+
+.detail .summary .g_buy .buy_num a{
+	color:#963;
+	font-size:16px;
+}
+
+.detail .summary .g_buy .buy_msg{
+	margin:0 5px;
+	width:475px;
+	height:40px;
+	border-bottom:1px dotted #ddd;
+}
+
+.detail .summary .g_buy .buy_but {
+	width:400px;
+	height:40px;
+}
+
+.detail .summary .g_buy .buy_but a{
+	text-decoration:none;
+}
+
+.detail .summary .g_buy .buy_but .buy_but_icon{
+	margin:7px 0 0 80px;
+	width:169px;
+	height:36px;
+	background:url('../images/icon.png') 0 -35px no-repeat;
+	border:0;
+	cursor:pointer;
+}
+
+/* 左边分类栏 */
+.g_all{
+	width:990px;
+	margin:0 auto;
+}
+
+.g_all .side_bar{
+	width:190px;
+	/* height:288px; */
+	float:left;
+}
+
+.g_all .side_bar .last_view{
+	width:164px;
+	/* height:55px; */
+	border:3px solid #ddd;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+.g_all .side_bar .last_view .title{
+	font-size:18px;
+	font-weight:bold;
+	padding-bottom:8px;
+	border-bottom:1px solid #f5f5f5;
+}
+
+.g_all .side_bar .last_view .notice{
+	padding-top:5px;
+}
+
+.g_all .side_bar .last_view .g_notice{
+	width:160px;
+	/* height:208px; */
+	margin:10px 2px;
+	font-family:"Arial Black";
+}
+
+.g_all .side_bar .last_view .g_img{
+	width:160px;
+	height:160px;
+	padding:5px 0;
+}
+
+.g_all .side_bar .last_view .g_img a{
+	display:inline-block;
+	padding:1px;
+}
+
+.g_all .side_bar .last_view .g_img a:hover{
+	border:1px solid #963;
+	padding:0;
+}
+
+.g_all .side_bar .last_view .g_name{
+	overflow:hidden;
+	width:160px;
+	height:20px;
+	font-size:14px;
+	color:#963;
+	padding:2px 0;
+}
+
+.g_all .side_bar .last_view .g_name a{
+	color:#963;
+}
+
+.g_all .side_bar .last_view .g_price{
+	line-height:;
+	color:#aaa;
+	padding:0 2px;
+}
+/* 商品描述与评论 */
+.descr{
+	width:790px;
+	float:right;
+}
+	
+.des{
+	width:790px;
+	height:29px;
+	border-bottom:2px solid #963;
+}
+
+.des a{
+	text-decoration:none;
+}
+
+.descr .descr_item{
+	width:90px;
+	height:29px;
+	line-height:29px;
+	text-align:center;
+	font-weight:bold;
+	border:1px solid #963;
+}
+
+.descr .descr_content{
+	width:740px;
+	color:#963;
+	padding:20px 20px 20px 10px;
+}
+
+.descr .des_discuss{
+	overflow:hidden;
+	width:768px;
+	border:1px solid #ddd;
+	padding:10px;
+	margin:15px 0 15px 0;
+}
+
+.descr .des_discuss .dis_name{
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;
+	color:#999;
+}
+
+.descr .des_discuss .dis_name span{
+	float:right;
+}
+
+.descr .des_discuss .dis_cont{
+	padding:10px 200px 0 0;
+}
+
+.descr .des_discuss input{
+	padding:0 20px;
+}
+
+/* 左边分类栏 结束 */
