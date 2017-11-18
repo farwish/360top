@@ -12,5 +12,4 @@ $ vi public/dbConfig.php
 ```
 
 Interface
-
-![360top](http://farwish.qiniudn.com/360top2.png)
+![360top](http://farwish.qiniudn.com/360top5.jpg)
