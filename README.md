@@ -11,3 +11,6 @@ $ cp public/dbConfig.php.default public/dbConfig.php
 $ vi public/dbConfig.php
 ```
 
+Interface
+
+![360top](http://farwish.qiniudn.com/360top2.png)
